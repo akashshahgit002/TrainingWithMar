@@ -1,0 +1,12 @@
+{
+  "uuid": "21eda06a-76f8-4f74-88bf-2a4545afde3d",
+  "name": "TrainingWithAutomation.SmokeTest.PracticeFormSubmit",
+  "children": [
+    "51eeb770-296e-462b-a24c-13e2c8a08c24"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489244479,
+  "stop": 1729489249125
+}

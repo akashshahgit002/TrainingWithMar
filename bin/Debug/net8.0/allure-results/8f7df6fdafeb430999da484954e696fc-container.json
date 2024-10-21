@@ -1,0 +1,12 @@
+{
+  "uuid": "b5a26afa-4d88-480e-a2d5-d71a8d720310",
+  "name": "TrainingWithAutomation.SmokeTest.FooterLinksCheck",
+  "children": [
+    "ee70aed9-6937-4461-b88b-8a49ccef6ad1"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729275265867,
+  "stop": 1729275317366
+}

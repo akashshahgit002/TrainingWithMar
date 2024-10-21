@@ -1,0 +1,64 @@
+{
+  "uuid": "094f2cb2-1860-4c27-9c1d-555a6e8dae6e",
+  "historyId": "82583fc36fe08b2bc2cb78b98bd1c131",
+  "testCaseId": "ad21e041eedbd5dc6979f0ecf63942c0",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.Tests+AllureReportTests.AllureReportTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "AllureReportTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests+AllureReportTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Google Search",
+      "url": "Google Search",
+      "type": "issue"
+    },
+    {
+      "name": "Search for Selenium C# in Google",
+      "url": "Search for Selenium C# in Google",
+      "type": "tms"
+    }
+  ],
+  "name": "AllureReportTest",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at TrainingWithAutomation.Pages.WebFormPage.WriteTextTotextArea(String text) in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\AllureReportTests.cs:line 16\r\n   at TrainingWithAutomation.Tests.AllureReportTests.AllureReportTest() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\UnitTest1.cs:line 57\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Sample Tests",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729078670864,
+  "stop": 1729078670879
+}

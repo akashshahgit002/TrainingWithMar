@@ -1,0 +1,49 @@
+{
+  "uuid": "3f00b8ec-de2a-40fe-b199-80ec2c0f8871",
+  "historyId": "9316f599c81a945ac76e0987ca2d3af4",
+  "testCaseId": "be8d9833df96b2bb966bab4274521ea6",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.FetchValueFromJsonAndDoLogin()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "FetchValueFromJsonAndDoLogin"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    },
+    {
+      "name": "tag",
+      "value": "Hotfixrun"
+    }
+  ],
+  "links": [],
+  "name": "FetchValueFromJsonAndDoLogin",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729516732975,
+  "stop": 1729516737771
+}

@@ -1,0 +1,5 @@
+C:\Users\aksah\source\repos\TrainingWithAutomation\obj\Release\netcoreapp3.1\TrainingWithAutomation.csproj.AssemblyReference.cache
+C:\Users\aksah\source\repos\TrainingWithAutomation\obj\Release\netcoreapp3.1\TrainingWithAutomation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aksah\source\repos\TrainingWithAutomation\obj\Release\netcoreapp3.1\TrainingWithAutomation.AssemblyInfoInputs.cache
+C:\Users\aksah\source\repos\TrainingWithAutomation\obj\Release\netcoreapp3.1\TrainingWithAutomation.AssemblyInfo.cs
+C:\Users\aksah\source\repos\TrainingWithAutomation\obj\Release\netcoreapp3.1\TrainingWithAutomation.csproj.CoreCompileInputs.cache

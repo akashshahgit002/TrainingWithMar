@@ -1,0 +1,13 @@
+My links count are: 12 
+Clicked on a element 1
+Clicked on a element 2
+Clicked on a element 3
+Clicked on a element 4
+Clicked on a element 5
+Failed to click on element at index 6: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 7: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 8: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 9: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 10: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 11: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 12: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')

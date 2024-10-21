@@ -1,0 +1,51 @@
+{
+  "uuid": "f41e3560-00e4-46a0-8e60-5a556b3e99fc",
+  "historyId": "768f22fd1b1f80cc09ce3966b9a46c41",
+  "testCaseId": "8614def3dfce2e03e6f2fb7f64ec7733",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.doLoginWithPageObjectPatern()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "doLoginWithPageObjectPatern"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "doLoginWithPageObjectPatern",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "748bbae2-a50d-482a-9d2d-472a032d48da-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275257821,
+  "stop": 1729275260796
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "64149c67-20ee-450a-aa3f-a02a38d63cd2",
+  "name": "TrainingWithAutomation.SmokeTest.LoginWithTestData",
+  "children": [
+    "bb98a1cc-12b1-4e6b-9a6c-845037c2e9eb"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489792878,
+  "stop": 1729489795106
+}

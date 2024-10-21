@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a1cc857c-ca1a-4c9b-bf1c-e4156b5a47a7" name="aksah@AKASH 2024-10-19 00:23:11" runUser="AKASH\aksah" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-10-19T00:23:11.1379149+05:30" queuing="2024-10-19T00:23:11.1379152+05:30" start="2024-10-19T00:23:07.7638283+05:30" finish="2024-10-19T00:23:20.3641472+05:30" />
+  <TestSettings name="default" id="97ccb5aa-c5cf-4817-b87d-ad2c251e4f24">
+    <Deployment runDeploymentRoot="aksah_AKASH_2024-10-19_00_23_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="28bf5471-83d5-42c0-bb04-c669ba290b71" testId="10225e0b-0a72-23eb-563f-4e2874789dc9" testName="GoogleSearch" computerName="AKASH" duration="00:00:06.6747510" startTime="2024-10-19T00:23:12.3344741+05:30" endTime="2024-10-19T00:23:19.0092237+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28bf5471-83d5-42c0-bb04-c669ba290b71">
+      <Output>
+        <StdOut>8&#xD;
+My username is: standarduser&#xD;
+Page Title is: &#xD;
+Screenshot is captured at: C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\Home.png</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18f36b51-fc2d-4358-9f41-1fb7741cd735" testId="871ae83c-1a5e-64c4-261d-b9a2db883f54" testName="FetchValueFromJsonAndDoLogin" computerName="AKASH" duration="00:00:01.9137350" startTime="2024-10-19T00:23:10.4206642+05:30" endTime="2024-10-19T00:23:12.3343984+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18f36b51-fc2d-4358-9f41-1fb7741cd735" />
+    <UnitTestResult executionId="6d5a045f-b7cc-47ef-b9a6-b753bd3faeb1" testId="55f8c642-9853-436d-8a75-858805cf57be" testName="PostRequest" computerName="AKASH" duration="00:00:00.9849960" startTime="2024-10-19T00:23:19.3137020+05:30" endTime="2024-10-19T00:23:20.2986965+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d5a045f-b7cc-47ef-b9a6-b753bd3faeb1">
+      <Output>
+        <StdOut>Post request response:- {&#xD;
+  "userId": 1,&#xD;
+  "title": "selenium training with Team",&#xD;
+  "body": "This is our body",&#xD;
+  "id": 101&#xD;
+}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b3d9611-4ee7-4070-af02-7b2f57d73830" testId="4ef19cd1-6367-d55a-e83d-03d00b7a4358" testName="getRequest" computerName="AKASH" duration="00:00:00.2963420" startTime="2024-10-19T00:23:19.0173228+05:30" endTime="2024-10-19T00:23:19.3136651+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b3d9611-4ee7-4070-af02-7b2f57d73830">
+      <Output>
+        <StdOut>Get Api Response Data is:- {&#xD;
+  "userId": 1,&#xD;
+  "id": 1,&#xD;
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",&#xD;
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"&#xD;
+}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebd67078-4793-4aa1-aa0c-7ff048856e8e" testId="9c0373af-7fc9-7b54-54ce-76283016f843" testName="doLoginWithPageObjectPatern" computerName="AKASH" duration="00:00:02.0948120" startTime="2024-10-19T00:23:08.3243988+05:30" endTime="2024-10-19T00:23:10.4191208+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebd67078-4793-4aa1-aa0c-7ff048856e8e">
+      <Output>
+        <StdOut>Entered text: standard_user into the element name: Username&#xD;
+Entered text: standard_user into the element name: Password&#xD;
+Clicked on the element name: Login Button&#xD;
+Element Name: Sauce Labs Backpack is not visible</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GoogleSearch" storage="c:\users\aksah\source\repos\trainingwithautomation\bin\debug\net8.0\trainingwithautomation.dll" id="10225e0b-0a72-23eb-563f-4e2874789dc9">
+      <Execution id="28bf5471-83d5-42c0-bb04-c669ba290b71" />
+      <TestMethod codeBase="C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="TrainingWithAutomation.SmokeTest" name="GoogleSearch" />
+    </UnitTest>
+    <UnitTest name="FetchValueFromJsonAndDoLogin" storage="c:\users\aksah\source\repos\trainingwithautomation\bin\debug\net8.0\trainingwithautomation.dll" id="871ae83c-1a5e-64c4-261d-b9a2db883f54">
+      <Execution id="18f36b51-fc2d-4358-9f41-1fb7741cd735" />
+      <TestMethod codeBase="C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="TrainingWithAutomation.SmokeTest" name="FetchValueFromJsonAndDoLogin" />
+    </UnitTest>
+    <UnitTest name="doLoginWithPageObjectPatern" storage="c:\users\aksah\source\repos\trainingwithautomation\bin\debug\net8.0\trainingwithautomation.dll" id="9c0373af-7fc9-7b54-54ce-76283016f843">
+      <Execution id="ebd67078-4793-4aa1-aa0c-7ff048856e8e" />
+      <TestMethod codeBase="C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="TrainingWithAutomation.SmokeTest" name="doLoginWithPageObjectPatern" />
+    </UnitTest>
+    <UnitTest name="getRequest" storage="c:\users\aksah\source\repos\trainingwithautomation\bin\debug\net8.0\trainingwithautomation.dll" id="4ef19cd1-6367-d55a-e83d-03d00b7a4358">
+      <Execution id="3b3d9611-4ee7-4070-af02-7b2f57d73830" />
+      <TestMethod codeBase="C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="TrainingWithAutomation.Tests.RegressionTest" name="getRequest" />
+    </UnitTest>
+    <UnitTest name="PostRequest" storage="c:\users\aksah\source\repos\trainingwithautomation\bin\debug\net8.0\trainingwithautomation.dll" id="55f8c642-9853-436d-8a75-858805cf57be">
+      <Execution id="6d5a045f-b7cc-47ef-b9a6-b753bd3faeb1" />
+      <TestMethod codeBase="C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="TrainingWithAutomation.Tests.RegressionTest" name="PostRequest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="10225e0b-0a72-23eb-563f-4e2874789dc9" executionId="28bf5471-83d5-42c0-bb04-c669ba290b71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="871ae83c-1a5e-64c4-261d-b9a2db883f54" executionId="18f36b51-fc2d-4358-9f41-1fb7741cd735" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55f8c642-9853-436d-8a75-858805cf57be" executionId="6d5a045f-b7cc-47ef-b9a6-b753bd3faeb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ef19cd1-6367-d55a-e83d-03d00b7a4358" executionId="3b3d9611-4ee7-4070-af02-7b2f57d73830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c0373af-7fc9-7b54-54ce-76283016f843" executionId="ebd67078-4793-4aa1-aa0c-7ff048856e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases&#xD;
+Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 49885&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 49885.&#xD;
+Entered text: standard_user into the element name: Username&#xD;
+Entered text: standard_user into the element name: Password&#xD;
+Clicked on the element name: Login Button&#xD;
+Element Name: Sauce Labs Backpack is not visible&#xD;
+&#xD;
+Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 49899&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 49899.&#xD;
+Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 49913&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 49913.&#xD;
+8&#xD;
+My username is: standarduser&#xD;
+Page Title is: &#xD;
+Screenshot is captured at: C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\Home.png&#xD;
+&#xD;
+Get Api Response Data is:- {&#xD;
+  "userId": 1,&#xD;
+  "id": 1,&#xD;
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",&#xD;
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"&#xD;
+}&#xD;
+&#xD;
+Post request response:- {&#xD;
+  "userId": 1,&#xD;
+  "title": "selenium training with Team",&#xD;
+  "body": "This is our body",&#xD;
+  "id": 101&#xD;
+}&#xD;
+&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="AKASH" outcome="Error" timestamp="2024-10-19T00:23:09.4342144+05:30">
+        <Text>[1729277589.433][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</Text>
+      </RunInfo>
+      <RunInfo computerName="AKASH" outcome="Error" timestamp="2024-10-19T00:23:11.7379209+05:30">
+        <Text>[1729277591.738][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</Text>
+      </RunInfo>
+      <RunInfo computerName="AKASH" outcome="Error" timestamp="2024-10-19T00:23:13.5702887+05:30">
+        <Text>[1729277593.570][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

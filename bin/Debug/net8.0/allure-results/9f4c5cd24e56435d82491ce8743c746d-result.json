@@ -1,0 +1,52 @@
+{
+  "uuid": "0345689b-b096-4bb9-ba4e-cb455368d1d8",
+  "historyId": "29e16bc18893b837850b271f04e30c45",
+  "testCaseId": "c635f2e238bf0f0dec2c1a0d775ca099",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.CheckDownloadWithAssert()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckDownloadWithAssert"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckDownloadWithAssert",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=130.0.6723.59)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Window.Maximize()\r\n   at TrainingWithAutomation.SmokeTest.CheckDownloadWithAssert() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 623\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729489760370,
+  "stop": 1729489767265
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "4febaa2f-5466-44ce-8b4c-4d9235abb5c1",
+  "historyId": "9cae8d822bea3f35b79ec7825d59c0e7",
+  "testCaseId": "1e52902d6588beb1c861ef8e9ec928e5",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.GoogleSearch()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "GoogleSearch",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=130.0.6723.59)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_1(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElements(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElements(By by)\r\n   at TrainingWithAutomation.Helpers.CollectionHelper.GetElementsList(By locator) in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Helpers\\CollectionHelper.cs:line 21\r\n   at TrainingWithAutomation.SmokeTest.GoogleSearch() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 55\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729489225703,
+  "stop": 1729489229215
+}

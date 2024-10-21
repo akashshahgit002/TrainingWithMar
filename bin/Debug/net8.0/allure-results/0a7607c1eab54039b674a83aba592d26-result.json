@@ -1,0 +1,58 @@
+{
+  "uuid": "7f08af22-b8fe-4275-9ea5-d78be6768818",
+  "historyId": "f513a70b71286be9356f6d2b8f42eed5",
+  "testCaseId": "f20a9cfbfef5cb1ea04c9e2926c21015",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.UploadFiles()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "UploadFiles"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "UploadFiles",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at TrainingWithAutomation.SmokeTest.UploadFiles() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 581\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "ea2cfab8-9a3d-43b1-88de-bf4fb533e2ee-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729489249127,
+  "stop": 1729489266148
+}

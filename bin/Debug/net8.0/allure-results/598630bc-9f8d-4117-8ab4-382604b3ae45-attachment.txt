@@ -1,0 +1,4 @@
+8
+My username is: standarduser
+Page Title is: Selenium C# - Google Search
+Screenshot is captured at: C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\Home.png

@@ -1,0 +1,51 @@
+{
+  "uuid": "07e9062c-e0a5-4175-a817-d6227439d715",
+  "historyId": "ab4c756ea610e6727883ec12ff4520dd",
+  "testCaseId": "3cd4773b6c44658a6fea14d31b4544b7",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.FooterLinksCheck()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "FooterLinksCheck"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "FooterLinksCheck",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "4dafb746-bffe-40cb-be3b-3313e257d9c6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729489073617,
+  "stop": 1729489154000
+}

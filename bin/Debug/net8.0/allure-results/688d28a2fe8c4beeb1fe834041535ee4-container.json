@@ -1,0 +1,12 @@
+{
+  "uuid": "1c017bce-2e4e-41c6-826e-51cc2c107bfa",
+  "name": "TrainingWithAutomation.SmokeTest.BookStore",
+  "children": [
+    "170c3c82-0081-48f7-a291-8c34a90b51b2"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489735281,
+  "stop": 1729489760357
+}

@@ -1,0 +1,51 @@
+{
+  "uuid": "21de937f-1320-4bac-8956-a93877f0a124",
+  "historyId": "0bb2847041904e9414de2a190677049f",
+  "testCaseId": "9df7ed77d3c1298cd6751a403254c6fd",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.BookStore()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "BookStore"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "BookStore",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "fb843239-8aae-4186-8803-291a3ae3b04b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729488996261,
+  "stop": 1729489039179
+}

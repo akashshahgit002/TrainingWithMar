@@ -1,0 +1,26 @@
+{
+  "uuid": "5d936780-cd8e-4358-8e42-630ad4b98440",
+  "name": "TrainingWithAutomation.SmokeTest",
+  "children": [
+    "5c4316aa-6c95-4727-a76b-c759fadb08fa",
+    "90816737-ee95-4e73-9733-b5827bdbd44d",
+    "41699ce5-97be-4d8d-8a75-3ea3e1718473",
+    "f41e3560-00e4-46a0-8e60-5a556b3e99fc",
+    "0db1314f-0430-4a0e-a516-fe0a1904768c",
+    "273d8be3-f532-4f9a-9ba5-a5c15ec4a976",
+    "ee70aed9-6937-4461-b88b-8a49ccef6ad1",
+    "067469c4-d0b8-4087-af28-56805043cfcb",
+    "8ddaf56b-4c30-4d9e-9661-f3ff11edfbce",
+    "abf43493-544a-4034-a13e-b43e8067b786",
+    "45e6975e-1756-4fec-a8fc-4fbac04d1718",
+    "9c8e25f2-6899-4126-b0c5-39dbc760c9b5",
+    "deaf896f-d9ed-47e2-9b1b-8cf3a1048053",
+    "830d532e-55c8-4926-a85e-c00395d541ae",
+    "3cd41176-792f-4ba8-ad78-dea871ccd5a7"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729275205371,
+  "stop": 1729275383194
+}

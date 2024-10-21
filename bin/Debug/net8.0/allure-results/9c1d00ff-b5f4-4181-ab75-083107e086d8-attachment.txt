@@ -1,0 +1,2 @@
+Total Links are: 1
+Link: https://www.iana.org/domains/example Status: Broken - MovedPermanently

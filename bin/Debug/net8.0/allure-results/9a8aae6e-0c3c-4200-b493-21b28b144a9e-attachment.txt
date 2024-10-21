@@ -1,0 +1,36 @@
+My links count are: 12 
+Clicked on a element 1
+Clicked on a element 2
+Failed to click on element at index 2: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 3: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 4: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 5: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 6: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 7: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 8: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 9: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 10: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 11: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Failed to click on element at index 12: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)

@@ -1,0 +1,5 @@
+List is dropped successfully
+Grid is dropped successfully
+Passed :- class name ismt-2 list-group-item active list-group-item-action
+Initial box size width: 200 , Height: 200
+New box size width: 500 , Height: 300

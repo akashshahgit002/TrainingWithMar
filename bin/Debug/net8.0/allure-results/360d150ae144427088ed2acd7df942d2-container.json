@@ -1,0 +1,12 @@
+{
+  "uuid": "db34d1f1-06c9-471f-9c7c-9e9898322d03",
+  "name": "TrainingWithAutomation.SmokeTest.WebTable",
+  "children": [
+    "3cd41176-792f-4ba8-ad78-dea871ccd5a7"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729275380677,
+  "stop": 1729275383190
+}

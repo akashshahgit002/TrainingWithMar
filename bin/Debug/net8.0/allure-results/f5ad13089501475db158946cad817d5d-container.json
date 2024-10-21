@@ -1,0 +1,12 @@
+{
+  "uuid": "de7b1303-25a6-4a5c-a680-c1b5a857b051",
+  "name": "TrainingWithAutomation.SmokeTest.CheckDownloadWithAssert",
+  "children": [
+    "0345689b-b096-4bb9-ba4e-cb455368d1d8"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489760370,
+  "stop": 1729489767266
+}

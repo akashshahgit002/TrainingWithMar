@@ -1,0 +1,51 @@
+{
+  "uuid": "45e6975e-1756-4fec-a8fc-4fbac04d1718",
+  "historyId": "cd8a0a279ce5e0a1c1a6b4b77462648e",
+  "testCaseId": "ac7bd5c255be138973b27f3778e79890",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.Interactions()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "Interactions"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "Interactions",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "5be48820-dd9f-45ae-b9bc-1f0d420feb33-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275346165,
+  "stop": 1729275368720
+}

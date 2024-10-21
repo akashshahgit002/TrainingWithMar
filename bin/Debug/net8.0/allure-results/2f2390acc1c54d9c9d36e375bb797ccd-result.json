@@ -1,0 +1,58 @@
+{
+  "uuid": "9c8e25f2-6899-4126-b0c5-39dbc760c9b5",
+  "historyId": "6cf620b485a1bd835c11a3dd0962dd73",
+  "testCaseId": "30a0e438de16617289a0c5500cd70642",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.LoginWithTestData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginWithTestData"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "LoginWithTestData",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.DirectoryNotFoundException : Could not find a part of the path 'C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\bin\\Debug\\net8.0\\TestData\\Cred.xlsx'.",
+    "trace": "   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)\r\n   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)\r\n   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)\r\n   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)\r\n   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)\r\n   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)\r\n   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)\r\n   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)\r\n   at ClosedXML.Excel.XLWorkbook.Load(String file)\r\n   at ClosedXML.Excel.XLWorkbook..ctor(String file, LoadOptions loadOptions)\r\n   at ClosedXML.Excel.XLWorkbook..ctor(String file)\r\n   at TrainingWithAutomation.SmokeTest.ExcelReaderHelper.ReadExcelData(String filePath) in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 173\r\n   at TrainingWithAutomation.SmokeTest.LoginWithTestData() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 142\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "cedbc835-a428-435c-8127-945b66c66e0b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275368722,
+  "stop": 1729275371781
+}

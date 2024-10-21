@@ -1,0 +1,12 @@
+{
+  "uuid": "829cb21b-52a7-4693-919d-ca57f137fa68",
+  "name": "TrainingWithAutomation.SmokeTest.doLoginWithPageObjectPatern",
+  "children": [
+    "074a2f51-47c9-4851-8162-46e20ada75e0"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489770001,
+  "stop": 1729489773530
+}

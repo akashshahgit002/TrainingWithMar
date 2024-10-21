@@ -1,0 +1,12 @@
+{
+  "uuid": "5668d429-a0f4-45f0-b03a-ef29eb3e5085",
+  "name": "TrainingWithAutomation.SmokeTest.Interactions",
+  "children": [
+    "27b08f6e-3689-4a89-9159-fdda7275b4c9"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489237130,
+  "stop": 1729489241134
+}

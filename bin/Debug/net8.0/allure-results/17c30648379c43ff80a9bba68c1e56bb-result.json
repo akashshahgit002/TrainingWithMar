@@ -1,0 +1,58 @@
+{
+  "uuid": "5c4316aa-6c95-4727-a76b-c759fadb08fa",
+  "historyId": "0bb2847041904e9414de2a190677049f",
+  "testCaseId": "9df7ed77d3c1298cd6751a403254c6fd",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.BookStore()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "BookStore"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "BookStore",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <select aria-label=\"rows per page\">...</select> is not clickable at point (845, 697). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://741a3b40c6498015850d8553692e6945.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html\" id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"private-state-token-redemption;attribution-reporting\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"1\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n  (Session info: chrome=130.0.6723.59)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at TrainingWithAutomation.SmokeTest.BookStore() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 462\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "f987ca5b-a5ec-41ea-937a-b378059da855-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275205380,
+  "stop": 1729275222504
+}

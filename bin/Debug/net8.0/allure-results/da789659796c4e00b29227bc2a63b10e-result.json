@@ -1,0 +1,51 @@
+{
+  "uuid": "41699ce5-97be-4d8d-8a75-3ea3e1718473",
+  "historyId": "56f5669014bb801b7f006f9320f72f5f",
+  "testCaseId": "e531b947e75bdc4e1cb2badc80b3caeb",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.checkLinks()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "checkLinks"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "checkLinks",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "4d6f9bc2-0477-4a2a-9ddb-47ccf57931a5-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275254098,
+  "stop": 1729275257819
+}

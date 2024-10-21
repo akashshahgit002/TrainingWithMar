@@ -1,0 +1,12 @@
+{
+  "uuid": "61ca9e32-8ccb-4faf-9b5a-cf88d540f71b",
+  "name": "TrainingWithAutomation.Tests+AllureReportTests",
+  "children": [
+    "094f2cb2-1860-4c27-9c1d-555a6e8dae6e"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729078670856,
+  "stop": 1729078670901
+}

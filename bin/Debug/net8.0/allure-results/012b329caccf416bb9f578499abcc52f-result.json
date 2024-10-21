@@ -1,0 +1,51 @@
+{
+  "uuid": "0db1314f-0430-4a0e-a516-fe0a1904768c",
+  "historyId": "5ff27d441c559dc625bcbd6a9f8094a4",
+  "testCaseId": "5c3d2bb8fe529b92f2c8216fa58bde9d",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.FetchProductDetails()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "FetchProductDetails"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "FetchProductDetails",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "605f2c9b-493a-4110-9e27-ed744a97a65f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275260797,
+  "stop": 1729275263954
+}

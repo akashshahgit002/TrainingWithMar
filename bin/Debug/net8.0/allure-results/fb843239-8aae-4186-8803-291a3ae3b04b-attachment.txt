@@ -1,0 +1,8 @@
+Fetched Text of Title is :- Git Pocket Guide
+Fetched Text of Author is :- Addy Osmani
+Scrolling is completed
+Fetched Text of Publisher is :- No Starch Press
+Again Scrolling is completed
+Before table records count: 10 
+After table records count: 5 
+Testcase is passed and table records counts are: 5 

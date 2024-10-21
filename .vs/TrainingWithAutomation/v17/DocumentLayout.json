@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|c:\\users\\aksah\\source\\repos\\trainingwithautomation\\tests\\smoketest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|solutionrelative:tests\\smoketest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|c:\\users\\aksah\\source\\repos\\trainingwithautomation\\helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|solutionrelative:helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|c:\\users\\aksah\\source\\repos\\trainingwithautomation\\tests\\regressiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|solutionrelative:tests\\regressiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|c:\\users\\aksah\\source\\repos\\trainingwithautomation\\trainingwithautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67C5B422-067A-42DD-85B5-2F74E3EBD099}|TrainingWithAutomation.csproj|solutionrelative:trainingwithautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiHelper.cs",
+              "DocumentMoniker": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Helpers\\ApiHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\ApiHelper.cs",
+              "ToolTip": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Helpers\\ApiHelper.cs",
+              "RelativeToolTip": "Helpers\\ApiHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:08:55.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmokeTest.cs",
+              "DocumentMoniker": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs",
+              "RelativeDocumentMoniker": "Tests\\SmokeTest.cs",
+              "ToolTip": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs",
+              "RelativeToolTip": "Tests\\SmokeTest.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:03:24.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrainingWithAutomation.csproj",
+              "DocumentMoniker": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\TrainingWithAutomation.csproj",
+              "RelativeDocumentMoniker": "TrainingWithAutomation.csproj",
+              "ToolTip": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\TrainingWithAutomation.csproj",
+              "RelativeToolTip": "TrainingWithAutomation.csproj",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T13:26:31.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegressionTest.cs",
+              "DocumentMoniker": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\RegressionTest.cs",
+              "RelativeDocumentMoniker": "Tests\\RegressionTest.cs",
+              "ToolTip": "C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\RegressionTest.cs",
+              "RelativeToolTip": "Tests\\RegressionTest.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:05:11.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

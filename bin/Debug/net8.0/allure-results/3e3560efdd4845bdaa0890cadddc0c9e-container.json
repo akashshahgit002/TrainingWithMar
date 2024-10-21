@@ -1,0 +1,12 @@
+{
+  "uuid": "18fbb718-579d-459f-b576-81b8287e5422",
+  "name": "TrainingWithAutomation.SmokeTest.HandleModalDialogs",
+  "children": [
+    "9d3d0ef1-a0ef-4391-ba34-04c726d7d19d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489229217,
+  "stop": 1729489237130
+}

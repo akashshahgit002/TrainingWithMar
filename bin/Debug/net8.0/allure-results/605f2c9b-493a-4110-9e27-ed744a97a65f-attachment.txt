@@ -1,0 +1,13 @@
+My Fetched Items from the page
+Sauce Labs Backpack
+Sauce Labs Bike Light
+Sauce Labs Bolt T-Shirt
+Sauce Labs Fleece Jacket
+Sauce Labs Onesie
+Test.allTheThings() T-Shirt (Red)
+The item 'Sauce Labs Backpack' was matched successfully
+The item 'Sauce Labs Bike Light' was matched successfully
+The item 'Sauce Labs Bolt T-Shirt' was matched successfully
+The item 'Sauce Labs Fleece Jacket' was matched successfully
+The item 'Sauce Labs Onesie' was matched successfully
+The item 'Test.allTheThings() T-Shirt (Red)' was matched successfully

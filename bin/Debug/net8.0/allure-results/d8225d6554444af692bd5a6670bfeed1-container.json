@@ -1,0 +1,12 @@
+{
+  "uuid": "d9ed8e7b-c828-498d-b343-c44222f39e8a",
+  "name": "TrainingWithAutomation.SmokeTest.UploadFiles",
+  "children": [
+    "7f08af22-b8fe-4275-9ea5-d78be6768818"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729489249126,
+  "stop": 1729489266149
+}

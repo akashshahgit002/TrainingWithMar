@@ -1,0 +1,450 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">17</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">9</span><br><span>Failed  : </span><span class="failedTests">8</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">52 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">4m 37s</div><br></div><br></div>
+    <h2>Failed Results</h2><details open=""><summary>C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll</summary><div class="inner-row" Id="-1890224880-failedResult">
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> ForbesAngularSiteCheck​</span><div class="duration"><span>1m 11s</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Billionaires']/parent::div/parent::li"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TrainingWithAutomation.SmokeTest.ForbesAngularSiteCheck() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 605
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchElementException
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> GoogleSearch​</span><div class="duration"><span>3s 513ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at TrainingWithAutomation.Helpers.CollectionHelper.GetElementsList(By locator) in C:\Users\aksah\source\repos\TrainingWithAutomation\Helpers\CollectionHelper.cs:line 21
+   at TrainingWithAutomation.SmokeTest.GoogleSearch() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 55
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> HandleModalDialogs​</span><div class="duration"><span>7s 913ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TrainingWithAutomation.SmokeTest.HandleModalDialogs() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 482
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchWindowException
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> Interactions​</span><div class="duration"><span>4s 3ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.Interactions() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 306
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> LoginWithTestData​</span><div class="duration"><span>3s 344ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>System.IO.DirectoryNotFoundException : Could not find a part of the path 'C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TestData\Cred.xlsx'.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook.Load(String file)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file, LoadOptions loadOptions)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at TrainingWithAutomation.SmokeTest.ExcelReaderHelper.ReadExcelData(String filePath) in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 173
+   at TrainingWithAutomation.SmokeTest.LoginWithTestData() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> PracticeFormSubmit​</span><div class="duration"><span>4s 646ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.PracticeFormSubmit() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 210
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> UploadFiles​</span><div class="duration"><span>17s 24ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>System.NullReferenceException : Object reference not set to an instance of an object.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at TrainingWithAutomation.SmokeTest.UploadFiles() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 581
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> WebTable​</span><div class="duration"><span>3s 347ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.WebTable() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 247
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+      </div></details><h2>All Results</h2><details><summary>C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll</summary><div class="inner-row" Id="-1890224880">
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> BookStore​</span><div class="duration"><span>42s 946ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> CheckDownloadWithAssert​</span><div class="duration"><span>22s 370ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> checkLinks​</span><div class="duration"><span>4s 459ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> doLoginWithPageObjectPatern​</span><div class="duration"><span>2s 192ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> FetchProductDetails​</span><div class="duration"><span>3s 238ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> FetchValueFromJsonAndDoLogin​</span><div class="duration"><span>2s 157ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> FooterLinksCheck​</span><div class="duration"><span>1m 20s</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> ForbesAngularSiteCheck​</span><div class="duration"><span>1m 11s</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 20 seconds
+  ----&gt; OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Billionaires']/parent::div/parent::li"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TrainingWithAutomation.SmokeTest.ForbesAngularSiteCheck() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 605
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchElementException
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> GoogleSearch​</span><div class="duration"><span>3s 513ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at TrainingWithAutomation.Helpers.CollectionHelper.GetElementsList(By locator) in C:\Users\aksah\source\repos\TrainingWithAutomation\Helpers\CollectionHelper.cs:line 21
+   at TrainingWithAutomation.SmokeTest.GoogleSearch() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 55
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> HandleModalDialogs​</span><div class="duration"><span>7s 913ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.WebDriverTimeoutException : Timed out after 5 seconds
+  ----&gt; OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TrainingWithAutomation.SmokeTest.HandleModalDialogs() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 482
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--NoSuchWindowException
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> Interactions​</span><div class="duration"><span>4s 3ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.Interactions() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 306
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> LoginWithTestData​</span><div class="duration"><span>3s 344ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>System.IO.DirectoryNotFoundException : Could not find a part of the path 'C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TestData\Cred.xlsx'.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at ClosedXML.Excel.XLWorkbook.LoadSheets(String fileName)
+   at ClosedXML.Excel.XLWorkbook.Load(String file)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file, LoadOptions loadOptions)
+   at ClosedXML.Excel.XLWorkbook..ctor(String file)
+   at TrainingWithAutomation.SmokeTest.ExcelReaderHelper.ReadExcelData(String filePath) in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 173
+   at TrainingWithAutomation.SmokeTest.LoginWithTestData() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> PracticeFormSubmit​</span><div class="duration"><span>4s 646ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.PracticeFormSubmit() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 210
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> UploadFiles​</span><div class="duration"><span>17s 24ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>System.NullReferenceException : Object reference not set to an instance of an object.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at TrainingWithAutomation.SmokeTest.UploadFiles() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 581
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="fail">✘</span><span> WebTable​</span><div class="duration"><span>3s 347ms</span><br></div>
+          </div>
+          <div class="error-info">
+    Error: <span class="error-message"><pre>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at TrainingWithAutomation.SmokeTest.WebTable() in C:\Users\aksah\source\repos\TrainingWithAutomation\Tests\SmokeTest.cs:line 247
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</pre></span><br></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> getRequest​</span><div class="duration"><span>346ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+        <div class="leaf-division">
+          <div><span class="pass">✔</span><span> PostRequest​</span><div class="duration"><span>969ms</span><br></div>
+          </div>
+          <div class="error-info"></div>
+        </div>
+      </div></details><div>
+      <h2>Informational messages</h2><span>NUnit Adapter 3.17.0.0: Test execution started</span><br><span>Running all tests in C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TrainingWithAutomation.dll</span><br><span>   NUnit3TestExecutor discovered 17 of 17 NUnit test cases</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 58709</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 58709.</span><br><span>Fetched Text of Title is :- Git Pocket Guide
+Fetched Text of Author is :- Addy Osmani
+Scrolling is completed
+Fetched Text of Publisher is :- No Starch Press
+Again Scrolling is completed
+Before table records count: 10 
+After table records count: 5 
+Testcase is passed and table records counts are: 5 
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59204</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59204.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59213</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59213.</span><br><span>File size is 4096
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59708</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59708.</span><br><span>Total Links are: 1
+Link: https://www.iana.org/domains/example Status: Broken - MovedPermanently
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59724</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59724.</span><br><span>Entered text: standard_user into the element name: Username
+Entered text: standard_user into the element name: Password
+Clicked on the element name: Login Button
+Element Name: Sauce Labs Backpack is not visible
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59738</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59738.</span><br><span>My Fetched Items from the page
+Sauce Labs Backpack
+Sauce Labs Bike Light
+Sauce Labs Bolt T-Shirt
+Sauce Labs Fleece Jacket
+Sauce Labs Onesie
+Test.allTheThings() T-Shirt (Red)
+The item 'Sauce Labs Backpack' was matched successfully
+The item 'Sauce Labs Bike Light' was matched successfully
+The item 'Sauce Labs Bolt T-Shirt' was matched successfully
+The item 'Sauce Labs Fleece Jacket' was matched successfully
+The item 'Sauce Labs Onesie' was matched successfully
+The item 'Test.allTheThings() T-Shirt (Red)' was matched successfully
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59751</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59751.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 59765</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 59765.</span><br><span>My links count are: 12 
+Clicked on a element 1
+Clicked on a element 2
+Clicked on a element 3
+Clicked on a element 4
+Clicked on a element 5
+Failed to click on element at index 6: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 7: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 8: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 9: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 10: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 11: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+Failed to click on element at index 12: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 60231</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 60231.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61164</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61164.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61176</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61176.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61202</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61202.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61227</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61227.</span><br><span>My base directory location is : C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61241</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61241.</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61304</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61304.</span><br><span>My file location is : C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\TestData\Cred.xlsx
+</span><br><span>Starting ChromeDriver 129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704}) on port 61708</span><br><span>Only local connections are allowed.</span><br><span>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.</span><br><span>ChromeDriver was started successfully on port 61708.</span><br><span>Get Api Response Data is:- {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+</span><br><span>Post request response:- {
+  "userId": 1,
+  "title": "selenium training with Team",
+  "body": "This is our body",
+  "id": 101
+}
+</span><br><span>NUnit Adapter 3.17.0.0: Test execution complete</span><br></div>
+    <div>
+      <h2>Error and Warning messages</h2><span>[1729488999.388][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489040.561][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489042.180][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489062.912][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489067.421][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489069.668][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489072.880][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489075.105][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489155.453][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489227.213][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489230.727][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489238.538][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489242.516][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489245.885][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489250.472][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br><span>[1729489267.486][WARNING]: This version of ChromeDriver has not been tested with Chrome version 130.</span><br></div>
+  </body>
+  <style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>

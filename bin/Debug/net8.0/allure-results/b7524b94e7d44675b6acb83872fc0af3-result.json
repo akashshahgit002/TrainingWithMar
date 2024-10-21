@@ -1,0 +1,55 @@
+{
+  "uuid": "3c96356f-7a0c-4462-bf2b-7ead93f8952b",
+  "historyId": "9cae8d822bea3f35b79ec7825d59c0e7",
+  "testCaseId": "1e52902d6588beb1c861ef8e9ec928e5",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.GoogleSearch()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "GoogleSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    },
+    {
+      "name": "tag",
+      "value": "Hotfixrun"
+    }
+  ],
+  "links": [],
+  "name": "GoogleSearch",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "598630bc-9f8d-4117-8ab4-382604b3ae45-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729516737834,
+  "stop": 1729516743776
+}

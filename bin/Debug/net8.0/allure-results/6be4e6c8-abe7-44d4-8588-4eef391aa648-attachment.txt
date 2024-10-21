@@ -1,0 +1,2 @@
+Fetched Text of Title is :- Git Pocket Guide
+Fetched Text of Author is :- Addy Osmani

@@ -1,0 +1,12 @@
+{
+  "uuid": "b1c53ca8-23d6-47cc-aafb-0ae8d82690e4",
+  "name": "TrainingWithAutomation.SmokeTest.FetchValueFromJsonAndDoLogin",
+  "children": [
+    "3f00b8ec-de2a-40fe-b199-80ec2c0f8871"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729516732974,
+  "stop": 1729516737819
+}

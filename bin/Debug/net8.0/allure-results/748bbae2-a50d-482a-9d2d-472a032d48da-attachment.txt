@@ -1,0 +1,4 @@
+Entered text: standard_user into the element name: Username
+Entered text: standard_user into the element name: Password
+Clicked on the element name: Login Button
+Element Name: Sauce Labs Backpack is not visible

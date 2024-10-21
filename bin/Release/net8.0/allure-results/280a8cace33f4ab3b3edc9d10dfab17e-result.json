@@ -1,0 +1,64 @@
+{
+  "uuid": "984b26e3-cdd2-4be0-b785-7c1aab95873f",
+  "historyId": "82583fc36fe08b2bc2cb78b98bd1c131",
+  "testCaseId": "ad21e041eedbd5dc6979f0ecf63942c0",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.Tests+AllureReportTests.AllureReportTest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "AllureReportTest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests+AllureReportTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "Google Search",
+      "url": "Google Search",
+      "type": "issue"
+    },
+    {
+      "name": "Search for Selenium C# in Google",
+      "url": "Search for Selenium C# in Google",
+      "type": "tms"
+    }
+  ],
+  "name": "AllureReportTest",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : WebDriver cannot be null (Parameter 'driver')",
+    "trace": "   at TrainingWithAutomation.Pages.WebFormPage..ctor(IWebDriver driver) in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\AllureReportTests.cs:line 11\r\n   at TrainingWithAutomation.Tests.AllureReportTests.SetUp() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\UnitTest1.cs:line 44\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Sample Tests",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729078915237,
+  "stop": 1729078915255
+}

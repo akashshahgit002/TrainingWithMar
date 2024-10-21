@@ -1,0 +1,58 @@
+{
+  "uuid": "170c3c82-0081-48f7-a291-8c34a90b51b2",
+  "historyId": "0bb2847041904e9414de2a190677049f",
+  "testCaseId": "9df7ed77d3c1298cd6751a403254c6fd",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.BookStore()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "BookStore"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "BookStore",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : unknown error: cannot determine loading status\nfrom target frame detached\n  (Session info: chrome=130.0.6723.59)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.RefreshAsync()\r\n   at OpenQA.Selenium.Navigator.<Refresh>b__10_0()\r\n   at OpenQA.Selenium.Navigator.Refresh()\r\n   at TrainingWithAutomation.SmokeTest.BookStore() in C:\\Users\\aksah\\source\\repos\\TrainingWithAutomation\\Tests\\SmokeTest.cs:line 426\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "6be4e6c8-abe7-44d4-8588-4eef391aa648-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729489735282,
+  "stop": 1729489760315
+}

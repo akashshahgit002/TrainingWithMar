@@ -1,0 +1,12 @@
+{
+  "uuid": "3a9f04b3-0442-4c78-a4e9-c6dd3f6f0cd2",
+  "name": "TrainingWithAutomation.SmokeTest.GoogleSearch",
+  "children": [
+    "953aea83-5b9c-4376-bb9c-79a3b5a62680"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729277592334,
+  "stop": 1729277599008
+}

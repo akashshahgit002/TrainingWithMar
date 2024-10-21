@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="TrainingWithAutomation.SmokeTest" hostname="AKASH" package="not available" id="0" tests="3" failures="0" errors="0" skipped="0" time="10.683" timestamp="2024-10-18T18:53:12">
+    <properties />
+    <testcase name="GoogleSearch" classname="TrainingWithAutomation.SmokeTest" time="6.675" status="1">
+      <system-out>8
+My username is: standarduser
+Page Title is: 
+Screenshot is captured at: C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\Home.png</system-out>
+    </testcase>
+    <testcase name="FetchValueFromJsonAndDoLogin" classname="TrainingWithAutomation.SmokeTest" time="1.914" status="1" />
+    <testcase name="doLoginWithPageObjectPatern" classname="TrainingWithAutomation.SmokeTest" time="2.095" status="1">
+      <system-out>Entered text: standard_user into the element name: Username
+Entered text: standard_user into the element name: Password
+Clicked on the element name: Login Button
+Element Name: Sauce Labs Backpack is not visible</system-out>
+    </testcase>
+    <system-out>8
+My username is: standarduser
+Page Title is: 
+Screenshot is captured at: C:\Users\aksah\source\repos\TrainingWithAutomation\bin\Debug\net8.0\Home.png
+Entered text: standard_user into the element name: Username
+Entered text: standard_user into the element name: Password
+Clicked on the element name: Login Button
+Element Name: Sauce Labs Backpack is not visible</system-out>
+    <system-err />
+  </testsuite>
+  <testsuite name="TrainingWithAutomation.Tests.RegressionTest" hostname="AKASH" package="not available" id="1" tests="2" failures="0" errors="0" skipped="0" time="1.281" timestamp="2024-10-18T18:53:19">
+    <properties />
+    <testcase name="getRequest" classname="TrainingWithAutomation.Tests.RegressionTest" time="0.296" status="1">
+      <system-out>Get Api Response Data is:- {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}</system-out>
+    </testcase>
+    <testcase name="PostRequest" classname="TrainingWithAutomation.Tests.RegressionTest" time="0.985" status="1">
+      <system-out>Post request response:- {
+  "userId": 1,
+  "title": "selenium training with Team",
+  "body": "This is our body",
+  "id": 101
+}</system-out>
+    </testcase>
+    <system-out>Get Api Response Data is:- {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+Post request response:- {
+  "userId": 1,
+  "title": "selenium training with Team",
+  "body": "This is our body",
+  "id": 101
+}</system-out>
+    <system-err />
+  </testsuite>
+</testsuites>

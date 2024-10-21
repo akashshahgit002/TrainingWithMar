@@ -1,0 +1,51 @@
+{
+  "uuid": "90816737-ee95-4e73-9733-b5827bdbd44d",
+  "historyId": "29e16bc18893b837850b271f04e30c45",
+  "testCaseId": "c635f2e238bf0f0dec2c1a0d775ca099",
+  "fullName": "TrainingWithAutomation:TrainingWithAutomation.SmokeTest.CheckDownloadWithAssert()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AKASH"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TrainingWithAutomation"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckDownloadWithAssert"
+    },
+    {
+      "name": "testClass",
+      "value": "SmokeTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckDownloadWithAssert",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "abe48bb9-90e1-459a-9187-75024ee31d4b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1729275222542,
+  "stop": 1729275254095
+}

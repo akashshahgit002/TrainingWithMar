@@ -1,0 +1,12 @@
+{
+  "uuid": "800256a5-6b33-41cd-a198-7317f7716e52",
+  "name": "TrainingWithAutomation.SmokeTest.FetchProductDetails",
+  "children": [
+    "0db1314f-0430-4a0e-a516-fe0a1904768c"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729275260797,
+  "stop": 1729275263956
+}

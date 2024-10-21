@@ -1,0 +1,12 @@
+{
+  "uuid": "1a944c1e-ca71-414b-9e2a-4f7cd32fff62",
+  "name": "TrainingWithAutomation.SmokeTest.ForbesAngularSiteCheck",
+  "children": [
+    "067469c4-d0b8-4087-af28-56805043cfcb"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729275317366,
+  "stop": 1729275328579
+}

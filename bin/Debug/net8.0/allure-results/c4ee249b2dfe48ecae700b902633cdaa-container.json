@@ -1,0 +1,13 @@
+{
+  "uuid": "7a8ec58b-73c5-45cd-8fc8-9565a8f0efe0",
+  "name": "TrainingWithAutomation.SmokeTest",
+  "children": [
+    "3f00b8ec-de2a-40fe-b199-80ec2c0f8871",
+    "3c96356f-7a0c-4462-bf2b-7ead93f8952b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1729516732965,
+  "stop": 1729516743795
+}
