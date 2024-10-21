@@ -72,6 +72,5 @@ namespace TrainingWithAutomation.Tests
             Console.WriteLine("Get Api Response Data is:- " + reponseData);
         }
 
-        
     }
 }
